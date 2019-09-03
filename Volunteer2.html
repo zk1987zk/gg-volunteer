@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Australian volunteers</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Coda+Caption:800' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<style type="text/css">
+		a#volunteer {
+			font-style: italic;
+			background-color: #A7E8D7;
+			color: black;
+			border-radius:14px;
+		}
+		a#volunteerTwo {
+			background-color: #A7E8D7;
+			color: black;
+			border-radius:14px;
+		}
+		</style>
+	</head>
+
+	<body>
+		<nav id="Navigation">
+			<img src="images/Greatest Grandkids logo.png" alt/>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a id="volunteer" href="Volunteer.html">Volunteers</a></li>
+				<li><a href="Joinus.html">Join us</a></li>
+				<li><a href="Contactus.html">Contact us</a></li>
+				<li><a href="Aboutus.html">About us</a></li>
+			</ul>
+		</nav>
+
+		<div id="logIn">
+				Name: <input type="text" name="membername">Password: <input type="password" name="password"><button button onclick="checkFunction()" class="memberLogin">Log in</button>
+				<br>
+				<span id="errorMessage"></span>
+				<p class="memberTop">Not a member yet? <a href="Joinus.html">Join us!</a></p>
+		</div>
+
+		<section id="volunteerSection">
+			<div id="volunteerMenu">
+				<ul>
+					<li><a id="volunteerOne" href="Volunteer1.html">1. What is volunteer</a></li>
+					<li><a id="volunteerTwo" href="Volunteer2.html">2. Australian volunteer</a></li>
+					<li><a id="volunteerThree" href="Volunteer3.html">3. Why volunteer</a></li>
+					<li><a id="volunteerFour" href="Volunteer4.html">4. Visting volunteer</a></li>
+					<li><a id="volunteerFive" href="Volunteer5.html">5. Pen/phone pals</a></li>
+				</ul>
+			</div>
+			<h1>Volunteer Benefit to the Community</h1>
+			<p><span id="firstLetter">V</span>olunteering benefits the community as a whole. Volunteer work is based in non-commercial settings, that is, settings where the primary focus is not on making a capital gain. However, organisations not for profit, run like any other businesses. The difference is that any income received through sales and service or other means goes back into the organisation and communities that support it. Volunteer work can either be through a nonprofit organisation such as a neighbourhoodcentre, a museum or a sporting group, or volunteering can be as informal as driving a neighbour to a medical appointment or picking up their groceries. Everyone realises that funding buckets are getting smaller because these days they are being spread around more thinly by governments. Managing a tight budget of running costs for an orgnisation is tough enough because excess money not yet can be given to voluntters. The reality is, non-profit organisations would be forced to close their doors if it were not for the assistance freely given by millions of generous, willing and caring volunteers.</p>
+			<div class="imageGallery">
+				<script language="JavaScript">
+					window.onload=swapImage;
+				</script>
+				
+				<img id="imageSlide" height="300" name="slide" src="images/volunteer.png" width="400"/alt>
+			</div>
+			<div class="commentSection">
+				<p>&apos; The experience I have had to be volunteer will never be found anywhere else. &apos; -<strong>John Harley</strong></p>
+				<p>&apos; I am young but I am a volunteer. &apos; -<strong>Kathy Norman</strong></p>
+				<p>&apos; Love sharing makes us alive. &apos; -<strong>Tom Green</strong></p>
+				<p>&apos; Everyone should contribute to the society. &apos; -<strong>Julia Asper</strong></p>
+				<p>&apos; I like what I do. Volunteer is so amazing! &apos; -<strong>Emma Louis</strong></p>
+			</div>
+		</section>
+		
+		<footer>
+			<div id="footer">
+				<ul>
+					<li>Copyright 2013-2014 Greatest Grandkids</li>
+					<li><strong>Email us</strong>: contact@greatestgrandkids.org.au</li>
+					<li><strong>Tel</strong>:07-1234 5678</li>
+					<li><a href="https://www.facebook.com"><img src="images/facebook1.png" alt>Find us on Facebook</a></li>
+					<li><a href="https://twitter.com/GreatGrandkids"><img src="images/twitter2.png" alt>Link us to Twitter</a></li>
+				</ul>
+			</div>
+		</footer>	
+	</body>
+</html>

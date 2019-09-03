@@ -1,0 +1,259 @@
+html {
+	background-color: #CCFFFF;
+	font-size: 1em;
+	width: 60%;
+	min-width: 1200px;
+	margin: auto;
+	font-family: Calibri, Arial, Times New Roman;
+}
+
+#Navigation img {
+	left:-30px;
+	top:-85px;
+	width: 8em;
+	height:8em;
+	float:left;
+	position:relative;
+	border-radius: 100%;
+}
+
+#logIn {
+	text-align: right;
+	top:-45px;
+	background-color: transparent;
+	position:relative;
+	float:right;
+}
+
+.memberTop {
+	line-height: 0px;
+}
+
+#Navigation {
+	position:relative;
+	top:70px;
+	left:10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 12px;
+}
+
+#Navigation ul li {
+	display: inline;
+	border: solid;
+	border-width: 0 1em 0.5em 1em;
+	border-color: transparent;
+	border-bottom-color: #CCCC00;
+	margin: 0 .8em 0 .8em;
+	padding:0 1em 0.5em 1em;
+	background-color: transparent;
+	border-radius: 12px;
+}
+
+#Navigation ul li a {
+	padding: 0 1em 0 1em;
+	font-size: 1em;
+	font-family: coda caption;
+	text-decoration: none;
+}
+
+#Navigation ul li a:hover, a:focus {
+	font-style: italic;
+	color: black;
+	transition: all 0.5s linear;
+}
+
+section {
+	font-size: 1.2em;
+	background-color: #A7E8D7;
+	border-radius:14px;
+	padding: 2em;
+	margin-top:8em;
+	position:relative;
+}
+
+#volunteerMenu {
+	background-color: #6CA3D9;
+	position: relative;
+	float: left;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border: solid;
+	border-color: transparent;
+	border-width: .5em;
+	border-radius: 12px;
+}
+
+#volunteerMenu ul {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+#volunteerMenu ul li {
+	list-style: none;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#volunteerMenu ul li a {
+	color: #BF6730;
+	text-decoration: none;
+	font-family: coda caption;
+}
+
+#volunteerMenu ul li a:hover, a:focus {
+	border-radius: 14px;
+	background-color: #A7E8D7;
+	transition: all 0.5s linear;
+}
+
+#volunteerContainer {
+	background-color: #A7E8D7;
+	border-radius:14px;
+	padding: 1em 1em 1em 1em ;
+	margin-top:1em;
+	position:relative;
+}
+
+h1 {
+	text-align:center;
+	font-style: 2em, bold, #FF341F;
+}
+
+#firstLetter {
+	float:left;
+	width:0.7em;
+	font-size:400%;
+	font-family:algerian,courier;
+	line-height:80%;
+}
+
+#button {
+	width:60%;
+	min-width: 1200px;
+	float:center;
+	margin:2em;
+	position: relative;
+}
+
+#button a:hover, a:focus {
+	background-color: transparent;
+}
+
+.Left {
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.Middle {
+	margin-right: 10%;
+}
+
+.Right {
+	margin-right: 10%;
+}
+
+textarea {
+	float:right;
+	height:300px;
+	width:400px;
+	position: relative;
+}
+
+#sendMessage {
+	float:right;
+	top:-130px;
+	position:relative;
+}
+
+#contactDetails {
+	position:relative;
+	font-size: 1em;
+}
+
+#Map {
+	width: 300px;
+	height:300px;
+}
+
+#footer {
+	background-color: transparent;
+	margin: 5em auto;
+	border:solid 1em;
+	border-color:#CCFFFF;
+	border-top-color: #A7E8D7;
+	border-radius: 14px;
+}
+
+#footer ul li {
+	display:inline;
+	list-style: none;
+	position: relative;
+	font-size:1em;
+	padding:-2em .3em 0 .3em;
+	margin-right: 1.2em;
+}
+
+.volunteerPhoto {
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 12px;
+}
+
+.volunteerName {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin:0;
+	color: #444;
+}
+
+.volunteerStory {
+	margin:5px auto;
+}
+
+.imageLeft {
+	float: left;
+	position: relative;
+}
+
+#leaveMessage {
+	text-align: right;
+}
+
+#errorMessage {
+	color:red;
+}
+
+#resultMessage {
+	color:red;
+	float: right;
+	top:-50px;
+}
+
+#confirmMessage {
+	color:red;
+}
+
+#submitMessage {
+	color:red;
+}
+
+.imageGallery {
+	width: 500px;
+}
+
+.commentSection {
+	font-size: 1em;
+	width:650px;
+	position: relative;
+	margin-top:-300px;
+	float:right;
+}
+
+title {
+    display: inline-block;
+    width: 5em;
+    color:red;
+  }
